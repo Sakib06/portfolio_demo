@@ -37,6 +37,25 @@ body{
     align-items: center;
 }
 
+.banner-content a{
+    position: static;
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+    
+.navigate-button{
+    position: static;
+    width: 160px;
+    height: 24px;
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
 .banner-content img{
     margin-bottom: 32px;
 }
@@ -98,6 +117,14 @@ body{
     width: 70%;
 }
 
+.layer-2 h3, .layer-3 h3, .layer-4 h3{
+    margin-bottom: 16px;
+}
+
+.layer-2 p, .layer-3 p, .layer-4 p{
+    margin-bottom: 32px;
+}
+
 .layer-2-container-2{
     width: 30%;
 }
@@ -145,6 +172,20 @@ body{
     width: 30%;
 }
 
+.layer-buttons{
+    position: static;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
 
 .inspiration-section{
     max-width: 1140px;
@@ -154,6 +195,7 @@ body{
     justify-content: center;
     align-items: center;
     /* margin: 0 150px 150px 150px; */
+    margin-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -171,7 +213,7 @@ body{
     text-align: center;
 }
 
-.youtube-video{
+/* .youtube-video{
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 15px;
@@ -179,13 +221,19 @@ body{
     padding: 32px;
     align-self: stretch;
     box-shadow: black;
-}
+} */
 
-.youtube-video iframe{
+.youtube-video{
+    box-sizing: border-box;
     border-radius: 15px;
     /* align-self: stretch; */
     width: 100%;
     height: 100%;
+
+    margin: 0 150px 100px 150px;
+    align-self: stretch;
+
+    margin: 0 auto;
 }
 
 /* -----------------------------
@@ -275,12 +323,11 @@ body{
 
 #suggestion{
     border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 8px;
     background: rgb(255, 255, 255);
     padding: 19px 20px 19px 20px;
-    position: static;
     width: 548px;
     height: 57px;
+    border: none;
     justify-content: flex-start;
 }
 
@@ -289,15 +336,26 @@ body{
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    border-radius: 8px;
+    position: static;
+    /* justify-content: flex-start; */
+    /* margin-bottom: 80px; */
 }
 
 .form-and-btn button{
-    position: static;
     width: 120px;
     height: 58px;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 17px 20px 17px 20px;
-    border-radius: 8px;
     background: rgb(255, 255, 255);
+    border: none;
+    justify-content: baseline;
 }
 
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
