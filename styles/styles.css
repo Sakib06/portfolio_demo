@@ -144,11 +144,11 @@ body{
 }
 
 .layer-3-container-1{
-    width: 30%;
+    width: 40%;
 }
 
 .layer-3-container-2{
-    width: 70%;
+    width: 60%;
 }
 
 /* ------- layer-3 Endssssssss --------- 
@@ -303,6 +303,7 @@ body{
 --------------------------------------------- */
 
 .footer{
+    margin-top: 100px;
     padding: 64px 48px;
     background-image: url(../assets/handshake.jpg);
 }
