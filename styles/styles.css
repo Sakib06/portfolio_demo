@@ -191,11 +191,16 @@ body{
 /* -----------------------------
 -------------------------------- */
 
+.target-section{
+    max-width: 1140px;
+    height: 463px;
+}
+
 .target-title{
     margin: 0 144px 0 144px;
 }
 
-.target-title h2{
+.target-title h1{
     text-align: center;
     margin-bottom: 24px;
 }
@@ -214,5 +219,85 @@ body{
 
 .skills-subsection{
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
 }
+
+.html img, .html p, .css img, .css p, .js img, .js p{
+    margin-bottom: 24px;
+}
+
+.html h2, .css h2, .js h2{
+    margin-bottom: 8px;
+}
+
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 24px;
+    padding: 40px;
+}
+
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 24px;
+    padding: 40px;
+}
+
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+/* ---------- Footer startssss --------------
+--------------------------------------------- */
+
+.footer{
+    padding: 64px 48px;
+    background-image: url(../assets/handshake.jpg);
+}
+
+.footer-title{
+    text-align: center;
+}
+
+.footer-title h2{
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-title p{
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+}
+
+#suggestion{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    position: static;
+    width: 548px;
+    height: 57px;
+    justify-content: flex-start;
+}
+
+.form-and-btn{
+    margin: 0 180px 1px 180px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.form-and-btn button{
+    position: static;
+    width: 120px;
+    height: 58px;
+    justify-content: center;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
